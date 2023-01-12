@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: #323841;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main>.my-content {
+    box-shadow: 0px 0px 8px 8px #4b515a;
+    width: 35%;
+    height: 90vh;
+    margin-top: 50px;
+    border-radius: 10px;
+    position: relative;
+    background: #1A1B21;
+}
+
+.my-info {
+    padding: 0px 20px;
+}
+
+.my-content>.my-photo {
+    box-sizing: border-box;
+    height: 25vh;
+    object-fit: cover;
+}
+
+.my-photo>img {
+    margin: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.about-me>.name,
+.about-me>.website {
+    color: #fff;
+}
+
+.about-me>.job-title {
+    color: #F3BF99;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.btns {
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.btns>button {
+    height: 35px;
+    width: 120px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btns>.linkendIn {
+    background: #5093E2;
+    color: #fff;
+}
+
+.text {
+    padding: 0 20px 0 20px;
+    color: #fff;
+}
+
+footer {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8%;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer>a {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 5px;
+    background: #918E9B;
+}
+
+footer>a>i {
+    width: 25px;
+    color: rgb(0, 0, 0);
+}
